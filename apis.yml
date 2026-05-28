@@ -1,0 +1,32 @@
+aid: jooble
+name: Jooble
+description: "Job search engine"
+url: https://jooble.org/api/about
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: Jooble
+    description: "Job search engine"
+    humanURL: https://jooble.org/api/about
+    baseURL: https://jooble.org/api/about
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: https://jooble.org/api/about
+common:
+  - type: Website
+    url: https://jooble.org/api/about
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
