@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://jooble.org/api/about
 common:
+  - type: DomainSecurity
+    url: security/jooble-domain-security.yml
   - type: Website
     url: https://jooble.org/api/about
   - type: PublicAPIsListing
